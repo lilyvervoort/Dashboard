@@ -7,7 +7,7 @@ Bekijk desktop resultaat hier:
 [https://lilyvervoort.github.io/Dashboard/]
 
 Bekijk mobile resultaat hier:
-[https://lilyvervoort.github.io/Dashboard/]
+[https://lilyvervoort.github.io/Dashboard/mobile/mobile.html]
 
 Bekijk tablet resultaat hier:
 [https://lilyvervoort.github.io/Dashboard/]
