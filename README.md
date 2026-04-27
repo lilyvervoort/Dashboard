@@ -3,7 +3,7 @@
 Een minimalistische redesign van het studentenportaal. Dit project focust op een designstijl met een zwart-wit kleurenpalet en rode accenten.
 
 ## Live Demo
-Bekijk het resultaat hier: [JOUW-GITHUB-LINK-HIER]
+Bekijk het resultaat hier: [https://lilyvervoort.github.io/Dashboard/]
 
 ## Kenmerken
 * **Modern Design:** Gebruik van Inter-font familie en een strakke zwart-wit interface.
