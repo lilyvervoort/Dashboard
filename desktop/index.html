@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Redesign - AP Digitap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .ap-red { color: #e11d48; }
+        .ap-bg-red { background-color: #e11d48; }
+        /* Forceert zwart-wit voor symbolen */
+        .bw-icon { 
+            filter: grayscale(100%) brightness(0); 
+            display: inline-block;
+        }
+    </style>
+</head>
+<body class="bg-[#f2f2f2] text-[#1a1a1a]">
+
+    <div class="flex h-screen overflow-hidden">
+
+        <aside class="w-64 bg-white border-r border-black flex flex-col p-6">
+            <div class="flex items-center gap-2 mb-12">
+                <img src="AP LOGO.png" alt="Digitap Logo" class="h-8 w-auto object-contain">
+                <h1 class="text-lg font-black tracking-tighter uppercase">Digitap</h1>
+            </div>
+
+            <nav class="flex-1 space-y-2 text-xs font-bold uppercase tracking-widest">
+                <a href="#" class="flex items-center gap-3 bg-black text-white px-4 py-3 rounded-none transition">
+                    <span class="text-lg">⊞</span> Dashboard
+                </a>
+                <a href="#" class="flex items-center gap-3 text-black hover:bg-zinc-100 px-4 py-3 border border-transparent hover:border-black transition">
+                    <span class="text-lg">📁</span> Mijn Vakken
+                </a>
+                <a href="#" class="flex items-center gap-3 text-black hover:bg-zinc-100 px-4 py-3 border border-transparent hover:border-black transition">
+                    <span class="text-lg">📂</span> Portfolio
+                </a>
+                <a href="#" class="flex items-center gap-3 text-black hover:bg-zinc-100 px-4 py-3 border border-transparent hover:border-black transition">
+                    <span class="text-lg">🗨</span> Berichten
+                </a>
+            </nav>
+
+            <div class="border-t border-black pt-6 mt-6">
+                <div class="flex items-center gap-3 px-2">
+                    <div class="w-10 h-10 border-2 border-black flex items-center justify-center font-black">VL</div>
+                    <div class="text-[10px] uppercase font-black">
+                        <p>Lily</p>
+                        <p class="text-zinc-400 underline cursor-pointer">Instellingen</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="flex-1 overflow-y-auto p-12">
+            <header class="flex justify-between items-start mb-12">
+                <div>
+                    <h2 class="text-4xl font-black tracking-tighter uppercase">Dashboard</h2>
+                    <p class="text-xs font-bold text-zinc-500 uppercase mt-2 tracking-widest">Studentenportaal / Maart 2026</p>
+                </div>
+                <div class="border-2 border-black p-1 flex">
+                    <input type="text" placeholder="ZOEKEN..." class="px-4 py-1 text-xs font-bold uppercase outline-none w-48">
+                    <button class="ap-bg-red text-white px-4 py-1 text-xs font-black uppercase tracking-widest">Enter</button>
+                </div>
+            </header>
+
+            <section class="mb-16">
+                <h3 class="text-[10px] font-black text-zinc-400 uppercase tracking-[0.3em] mb-6">Hulpmiddelen</h3>
+                <div class="grid grid-cols-5 gap-2">
+                    <button class="flex flex-col items-center justify-center p-4 bg-white border border-zinc-300 hover:border-black hover:bg-zinc-50 transition group">
+                        <span class="text-xl mb-2 bw-icon">💬</span>
+                        <span class="text-[9px] font-black uppercase text-center leading-tight tracking-tighter">Ondersteuning</span>
+                    </button>
+                    <button class="flex flex-col items-center justify-center p-4 bg-white border border-zinc-300 hover:border-black hover:bg-zinc-50 transition group">
+                        <span class="text-xl mb-2 bw-icon">📅</span>
+                        <span class="text-[9px] font-black uppercase text-center leading-tight tracking-tighter">Mijn Kalender</span>
+                    </button>
+                    <button class="flex flex-col items-center justify-center p-4 bg-white border border-zinc-300 hover:border-black hover:bg-zinc-50 transition group">
+                        <span class="text-xl mb-2 bw-icon">⏵</span>
+                        <span class="text-[9px] font-black uppercase text-center leading-tight tracking-tighter">Panopto</span>
+                    </button>
+                    <button class="flex flex-col items-center justify-center p-4 bg-white border border-zinc-300 hover:border-black hover:bg-zinc-50 transition group">
+                        <span class="text-xl mb-2 bw-icon">📒</span>
+                        <span class="text-[9px] font-black uppercase text-center leading-tight tracking-tighter">Portfolio</span>
+                    </button>
+                    <button class="flex flex-col items-center justify-center p-4 bg-white border border-zinc-300 hover:border-black hover:bg-zinc-50 transition group">
+                        <span class="text-xl mb-2 bw-icon">🌐</span>
+                        <span class="text-[9px] font-black uppercase text-center leading-tight tracking-tighter">Intranet</span>
+                    </button>
+                    <button class="flex flex-col items-center justify-center p-4 bg-white border border-zinc-300 hover:border-black hover:bg-zinc-50 transition group">
+                        <span class="text-xl mb-2 bw-icon">★</span>
+                        <span class="text-[9px] font-black uppercase text-center leading-tight tracking-tighter">AP-vaardig</span>
+                    </button>
+                    <button class="flex flex-col items-center justify-center p-4 bg-white border border-zinc-300 hover:border-black hover:bg-zinc-50 transition group">
+                        <span class="text-xl mb-2 bw-icon">⚙</span>
+                        <span class="text-[9px] font-black uppercase text-center leading-tight tracking-tighter">Ondernemen</span>
+                    </button>
+                    <button class="flex flex-col items-center justify-center p-4 bg-white border border-zinc-300 hover:border-black hover:bg-zinc-50 transition group">
+                        <span class="text-xl mb-2 bw-icon">🏠</span>
+                        <span class="text-[9px] font-black uppercase text-center leading-tight tracking-tighter">Student Center</span>
+                    </button>
+                    <button class="flex flex-col items-center justify-center p-4 bg-white border border-zinc-300 hover:border-black hover:bg-zinc-50 transition group">
+                        <span class="text-xl mb-2 bw-icon">👥</span>
+                        <span class="text-[9px] font-black uppercase text-center leading-tight tracking-tighter">Studentenraad</span>
+                    </button>
+                    <button class="flex flex-col items-center justify-center p-4 bg-white border border-zinc-300 hover:border-black hover:bg-zinc-50 transition group">
+                        <span class="text-xl mb-2 bw-icon">💡</span>
+                        <span class="text-[9px] font-black uppercase text-center leading-tight tracking-tighter">Hulp</span>
+                    </button>
+                </div>
+            </section>
+
+            <section>
+                <h3 class="text-[10px] font-black text-zinc-400 uppercase tracking-[0.3em] mb-6">Mijn Cursussen</h3>
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="bg-white border-2 border-black p-6 hover:translate-x-1 hover:-translate-y-1 transition-transform cursor-pointer shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                        <div class="text-[10px] font-black uppercase text-zinc-400 mb-1">1GDM / BDL</div>
+                        <h4 class="text-xl font-black uppercase tracking-tighter mb-4">Brand Basics</h4>
+                        <div class="h-1 w-full bg-zinc-100"><div class="h-full ap-bg-red w-1/3"></div></div>
+                    </div>
+                    <div class="bg-white border-2 border-black p-6 hover:translate-x-1 hover:-translate-y-1 transition-transform cursor-pointer shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                        <div class="text-[10px] font-black uppercase text-zinc-400 mb-1">1GDM / VDL</div>
+                        <h4 class="text-xl font-black uppercase tracking-tighter mb-4">Visual Basics</h4>
+                        <div class="h-1 w-full bg-zinc-100"><div class="h-full ap-bg-red w-1/2"></div></div>
+                    </div>
+                    <div class="bg-white border-2 border-black p-6 hover:translate-x-1 hover:-translate-y-1 transition-transform cursor-pointer shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                        <div class="text-[10px] font-black uppercase text-zinc-400 mb-1">1GDM / VDL</div>
+                        <h4 class="text-xl font-black uppercase tracking-tighter mb-4">Visual Designlab</h4>
+                        <div class="h-1 w-full bg-zinc-100"><div class="h-full ap-bg-red w-full"></div></div>
+                    </div>
+                    <div class="bg-white border-2 border-black p-6 hover:translate-x-1 hover:-translate-y-1 transition-transform cursor-pointer shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                        <div class="text-[10px] font-black uppercase text-zinc-400 mb-1">1GDM / BDL</div>
+                        <h4 class="text-xl font-black uppercase tracking-tighter mb-4">Brand Designlab</h4>
+                        <div class="h-1 w-full bg-zinc-100"><div class="h-full ap-bg-red w-1/4"></div></div>
+                    </div>
+                    <div class="bg-white border-2 border-black p-6 hover:translate-x-1 hover:-translate-y-1 transition-transform cursor-pointer shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                        <div class="text-[10px] font-black uppercase text-zinc-400 mb-1">1GDM / MDL</div>
+                        <h4 class="text-xl font-black uppercase tracking-tighter mb-4">Motion Designlab</h4>
+                        <div class="h-1 w-full bg-zinc-100"><div class="h-full ap-bg-red w-0"></div></div>
+                    </div>
+                    <div class="bg-white border-2 border-black p-6 hover:translate-x-1 hover:-translate-y-1 transition-transform cursor-pointer shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                        <div class="text-[10px] font-black uppercase text-zinc-400 mb-1">1GDM / MDL</div>
+                        <h4 class="text-xl font-black uppercase tracking-tighter mb-4">Video & VFX Basics</h4>
+                        <div class="h-1 w-full bg-zinc-100"><div class="h-full ap-bg-red w-1/5"></div></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside class="w-80 bg-white border-l border-black p-8 overflow-y-auto">
+            <section class="mb-12">
+                <h3 class="text-sm font-black uppercase tracking-widest mb-6 border-b border-black pb-2">Maart 2026</h3>
+                <div class="text-center">
+                    <div class="grid grid-cols-7 gap-1 text-[8px] font-black text-zinc-400 mb-4 uppercase">
+                        <span>MA</span><span>DI</span><span>WO</span><span>DO</span><span>VR</span><span>ZA</span><span>ZO</span>
+                    </div>
+                    <div class="grid grid-cols-7 gap-y-2 text-[10px] font-bold">
+                        <span class="text-zinc-200">23</span><span class="text-zinc-200">24</span><span class="text-zinc-200">25</span><span class="text-zinc-200">26</span><span class="text-zinc-200">27</span><span class="text-zinc-200">28</span><span>1</span>
+                        <span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span class="text-zinc-400">7</span><span class="text-zinc-400">8</span>
+                        <span>9</span><span>10</span><span>11</span><span>12</span><span class="ap-red underline">13</span><span class="text-zinc-400">14</span><span class="text-zinc-400">15</span>
+                        <span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span class="text-zinc-400">21</span><span class="text-zinc-400">22</span>
+                        <span>23</span><span class="ap-bg-red text-white p-1">24</span><span>25</span><span>26</span><span>27</span><span class="text-zinc-400">28</span><span class="text-zinc-400">29</span>
+                        <span>30</span><span>31</span><span class="text-zinc-200">1</span>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3 class="text-xs font-black uppercase tracking-widest mb-4">Naderende Deadline</h3>
+                <div class="border-2 border-black p-4 bg-zinc-50 hover:bg-white transition">
+                    <p class="text-[8px] font-black ap-red uppercase mb-1">Visual Basics</p>
+                    <p class="text-[11px] font-black uppercase leading-tight">High-fidelity design inleveren</p>
+                    <div class="mt-4 text-[9px] font-bold uppercase text-zinc-400">Vrijdag | 23:59</div>
+                </div>
+            </section>
+        </aside>
+
+    </div>
+</body>
+</html>
