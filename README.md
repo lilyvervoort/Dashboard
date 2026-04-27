@@ -10,7 +10,7 @@ Bekijk mobile resultaat hier:
 [https://lilyvervoort.github.io/Dashboard/mobile/mobile.html]
 
 Bekijk tablet resultaat hier:
-[https://lilyvervoort.github.io/Dashboard/]
+[https://lilyvervoort.github.io/Dashboard/tablet/tablet.html]
 
 ## Kenmerken
 * **Modern Design:** Gebruik van Inter-font familie en een strakke zwart-wit interface.
@@ -24,7 +24,7 @@ Bekijk tablet resultaat hier:
 ## Projectstructuur
 * `index.html` - De hoofdstructuur van het dashboard.
 * `logo.png` - Het logo van Digitap (gebruikt in de sidebar).
-* README.md
+* `README.md`
 
 ## Installatie
 Je kunt het project lokaal bekijken door simpelweg de `index.html` te openen in je browser:
