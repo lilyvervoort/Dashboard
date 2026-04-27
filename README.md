@@ -10,7 +10,7 @@ Bekijk mobile resultaat hier:
 [https://lilyvervoort.github.io/Dashboard/mobile/mobile.html]
 
 Bekijk tablet resultaat hier:
-[https://lilyvervoort.github.io/Dashboard/tablet/tablet.html]
+[https://lilyvervoort.github.io/Dashboard/tablet/TABLET.html]
 
 ## Kenmerken
 * **Modern Design:** Gebruik van Inter-font familie en een strakke zwart-wit interface.
