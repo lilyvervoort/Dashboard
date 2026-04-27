@@ -31,7 +31,7 @@ Je kunt het project lokaal bekijken door simpelweg de `index.html` te openen in 
 
 1. Download de bestanden.
 2. Zorg dat de afbeeldingen in dezelfde map staan als de HTML.
-3. Open `index.html`.
+3. Open de links in de README (hier bovenaan dus)
 
 ## Licentie
 Dit project is gemaakt voor educatieve doeleinden door Lily Vervoort als onderdeel van de opleiding aan AP Hogeschool.
