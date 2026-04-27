@@ -21,6 +21,14 @@ Bekijk tablet resultaat hier:
 ## Gebruikte Technologieën
 * Visual Studio Code met behulp van AI bij problemen
 
+## Kleurgebruik & Design
+Voor dit design is specifiek gekozen voor een **hoog-contrast kleurenpalet** (zwart, wit en AP-rood):
+
+* **Merkidentiteit:** Het gebruik van de kleur `#e11d48` (rood) zorgt voor een directe herkenbaarheid van de AP Hogeschool huisstijl.
+* **Hiërarchie:** Door een minimalistische zwart-wit basis te gebruiken, trekken de rode elementen direct de aandacht van de gebruiker.
+* **Brutalist Style:** De dikke zwarte randen en harde schaduwen zijn een bewuste keuze voor een moderne, "raw" esthetiek.
+* **Toegankelijkheid:** Het hoge contrast tussen de achtergrond en de tekst is gekozen om de leesbaarheid voor alle studenten te optimaliseren.
+
 ## Projectstructuur
 * `index.html` - De hoofdstructuur van het dashboard.
 * `logo.png` - Het logo van Digitap (gebruikt in de sidebar).
